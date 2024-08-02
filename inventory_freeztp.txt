@@ -1,0 +1,8 @@
+[freeztp-servers]
+172.16.0.2
+
+[freeztp-servers:vars]
+ansible_connection=ssh
+ansible_user=cisco
+ansible_ssh_pass=cisco
+ansible_sudo_pass=cisco
